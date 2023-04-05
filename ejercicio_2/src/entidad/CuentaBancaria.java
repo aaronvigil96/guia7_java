@@ -50,14 +50,4 @@ public class CuentaBancaria {
     public void setSaldoActual(double saldoActual) {
         this.saldoActual = saldoActual;
     }
-    /*
-    public void validacionDni(){
-        String dni;
-        do{
-            System.out.println("Ingresa el dni");
-            dni = entrada.nextLine();
-        }while(dni.length() != 8);
-        this.dniCliente = Long.parseLong(dni);
-    }
-    */
 }

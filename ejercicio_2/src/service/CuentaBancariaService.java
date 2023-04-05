@@ -16,6 +16,7 @@ import java.util.Scanner;
 
 public class CuentaBancariaService {
     
+    private CuentaBancaria manejadorCuenta = new CuentaBancaria();
     private Scanner entrada = new Scanner(System.in);
     
     public CuentaBancaria crearCuenta(){
